@@ -74,8 +74,8 @@ h1 {
 
 
 hr {
-    background-size: 4px;
-    border-top: 1px solid #FFF0F2;
+
+    border-top: 1.5px solid #FFF0F2;
     border-color: #FFF0F2;
 
 
@@ -93,16 +93,16 @@ figure.main_heading:hover figcaption {
 
 figure.main_heading:hover figcaption hr.top {
 
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    -webkit-transform: scale(0);
+    transform: scale(1.3) translateX(-15%);
 
 }
 
 
 figure.main_heading:hover figcaption hr.bottom {
 
-    -webkit-transform: scale(1.0);
-    transform: scale(1.0);
+    -webkit-transform: scale(0);
+    transform: scale(1.3) translateX(15%);
 
 }
 
@@ -116,28 +116,50 @@ figure.main_heading * {
     transition: all 0.25s ease-in-out;
 }
 
-figure.main_heading figcaption{
-    
+.fa-linkedin-in {
+
+    opacity: 0.30;
+}
+
+.fa-github {
+
+    opacity: 0.30;
 }
 
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+.fa-envelope {
 
-    html{
-        
-    font-size: 1.2rem;
+    opacity: 0.30;
+}
+
+
+.permahover{
+
+    opacity: 1.2;
+    transition:0;
+
+}
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    html {
+
+        font-size: 1.2rem;
     }
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     font-size: 1.4rem;
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 
     font-size: 1.6rem;
 
