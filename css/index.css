@@ -116,7 +116,9 @@ figure.main_heading * {
     transition: all 0.25s ease-in-out;
 }
 
-
+figure.main_heading figcaption{
+    
+}
 
 
 /* Small devices (tablets, 768px and up) */
