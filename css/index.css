@@ -1,0 +1,117 @@
+.fa-envelope {
+
+    color: #FFFFFF;
+}
+
+.fa-github {
+
+    color: #9B42A7;
+
+}
+
+.fa-linkedin-in {
+
+    color: #4875B4;
+
+}
+
+.fa-html5 {
+
+    color: #e34c26;
+}
+
+.fa-bold {
+
+    color: #563D7C;
+}
+
+.fa-js {
+
+    color: #F0DB4F;
+}
+
+.navbar-nav {
+
+    float: none;
+    text-align: center;
+    padding: 25px;
+}
+
+
+.parallax {
+
+    max-width: 100%;
+    margin: 0 auto;
+    background: url(../assets/background1.jpeg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+
+}
+
+
+
+html {
+    font-size: 1rem;
+}
+
+#main {
+
+    padding-top: 175px;
+}
+
+h1 {
+
+    text-align: center;
+
+
+    letter-spacing: -1px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+
+hr {
+    background-size: 4px;
+    border-top: 1px solid #FFF0F2;
+    border-color: #FFF0F2;
+
+
+}
+
+
+
+
+figure.main_heading:hover figcaption {
+
+    -webkit-transform: rotate(-45deg) translateY(-50%) scale(0.9);
+    transform: rotate(-45deg) translateY(-50%) scale(0.9);
+
+}
+
+figure.main_heading:hover figcaption hr.top {
+
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+}
+
+
+figure.main_heading:hover figcaption hr.bottom {
+
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+
+}
+
+figure.main_heading figcaption h1 span {
+    font-weight: 600;
+}
+
+
+figure.main_heading * {
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
