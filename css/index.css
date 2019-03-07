@@ -45,7 +45,7 @@
     background: url(../assets/background1.jpeg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 800px;
+    height: 1300px;
 
 }
 
@@ -114,4 +114,30 @@ figure.main_heading figcaption h1 span {
 figure.main_heading * {
     -webkit-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
+}
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    html{
+        
+    font-size: 1.2rem;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    font-size: 1.4rem;
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    font-size: 1.6rem;
+
+
 }
