@@ -8,7 +8,8 @@
     <meta name="author" content="">
     <title>Herbert Ma</title>
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <!-- Google Fonts -->
@@ -27,13 +28,16 @@
             <nav class="navbar-nav fixed-top navbar-light bg-dark ">
                 <div class="row">
                     <div class="col-4 col-sm-4 col-md-4">
-                        <a href="https://www.linkedin.com/in/herbertma" target="_blank" class="text-white cinzel"> LINKEDIN </a>
+                        <a href="https://www.linkedin.com/in/herbertma" target="_blank" class="text-white cinzel">
+                            LINKEDIN </a>
                     </div>
                     <div class="col-4 col-sm-4 col-md-4">
                         <a href="https://github.com/herbertmaa" class="text-white cinzel" target="_blank"> GITHUB </a>
                     </div>
                     <div class="col-4 col-sm-4 col-md-4">
-                        <a href="./assets/Ma_Herbert%20-%20Resume.pdf" class="text-white cinzel" target="_blank"> RESUME </a>
+                        <a href="./assets/Ma_Herbert%20-%20Resume.pdf" class="text-white cinzel" target="_blank"
+                            data-toggle="modal" data-target="#resumemodal"> RESUME
+                        </a>
                     </div>
                 </div>
             </nav>
@@ -53,14 +57,39 @@
             </div>
         </div>
     </div>
-    <div class="container">
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="resumemodal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <iframe src="https://drive.google.com/file/d/1QVIbn3_KlWUSWV1ucyFSlitMHakyjbiM/preview"
+                        allowtransparency="true" width="95%" height="480vh"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
     </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./js/landing.js"></script>
 </body>
 
 </html>

@@ -46,11 +46,17 @@
     background-attachment: fixed;
     height: 1300px;
 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+
 }
 
 html {
     font-size: 1rem;
+    background: none transparent !important;
 }
+
 
 #main {
 
@@ -84,8 +90,11 @@ hr {
 
 }
 
+.modal-body{
 
-
+    max-height: 1000px;
+    overflow-y: auto;
+}
 
 figure.main_heading:hover figcaption {
 
